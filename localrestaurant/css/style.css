@@ -1,0 +1,123 @@
+* {
+    background-color: lightgrey;
+    box-sizing: border-box;
+    
+}
+
+header {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    background-color: lightgrey;
+    color: palevioletred;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header > em {
+    color: black;
+    font-size: 0.5em;
+    display: block;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 0;   
+}
+
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:palevioletred;
+    display: block;
+    padding: 0.8rem;
+    border: 2px solid lightgrey;
+    background-color: #141616;
+    
+}
+
+a:hover {
+    color: white;
+}
+
+div > .fa {
+    display:flex;
+    float:right;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.text {
+    display: block;
+    padding: 1rem 5rem;
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.headul {
+    text-align: center;
+}
+.menu1 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu1 li {
+    padding: 1rem 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+li > em {
+    color: #35b9ab;
+}
+
+.img2 {
+    float: left;
+    width: 40%; 
+    height: 40%;
+    transition: 1s ease;
+}
+        
+.img2:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+    }
+
+
+.open, .find, .contact {
+    display:inline-block;
+    flex-direction: row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    font-size: 1.2rem;
+    justify-content: center;
+    padding: 1.5rem 2.5rem;
+    margin: 0.8rem 1rem;
+}
+
+
+
